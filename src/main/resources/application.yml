@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: chatbot
+auth:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+    app:
+      api-key: ${AUTH_API_KEY}
+ai:
+  context: ${AI_CONTEXT}
