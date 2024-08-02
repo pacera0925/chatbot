@@ -22,7 +22,7 @@ public class ChatService {
 
     public String processChatInput(UserInput userInput) {
         try {
-            logger.info("Processing chat input {}", userInput.getMessage());
+            logger.info("Processing chat input: {}", userInput.getMessage());
             return openAIService.generateResponse(userInput);
         } catch (RestClientException e) {
             logger.error("Error occurred while processing chat input with message: {}. Exception: {}",
