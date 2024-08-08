@@ -10,3 +10,5 @@ openai:
   model: gpt-3.5-turbo
   url: https://api.openai.com/v1/chat/completions
   context: ${AI_CONTEXT}
+cors:
+  allowed-origins: ${ORIGIN_1}
