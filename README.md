@@ -16,6 +16,8 @@ To run this project locally, you will need to add the following environment vari
 
 `AI_CONTEXT` - The context of your AI. You need this if you intend to run this application locally.
 
+`ORIGIN_1` - The origin url of where you expect the request to come from. You can also modify the .yml to add multiple origins. This is needed for CORS related configuration.
+
 
 ## Run Locally
 
